@@ -1,14 +1,14 @@
 ## Hyperelastic Material
 Result[[Chenfanfu Jiang 2016]](#Reference):
 <div style="text-align: center;">
-<img src="./gif/mpmElasticPIC.gif" style="width: 30%; height: auto;" />
+<img src="./gif/mpmElasticPIC.gif" style="width: 50% height: auto;" />
 </div>
 
 ## Elasto-plastic Materials
 
 Result[[Alexey Stomakhin 2013]](#Reference):
 <div style="text-align: center;">
-<img src="./gif/mpmSnowAPICFast.gif" style="width: 30%; height: auto;" />
+<img src="./gif/mpmSnowAPICFast.gif" style="width: 50%; height: auto;" />
 </div>
 
 ## APIC vs. PIC
@@ -16,30 +16,33 @@ APIC not only stably removes the dissipation of PIC, but also allows for **exact
 
 **PIC**:
 <div style="text-align: center;">
-<img src="./gif/mpmRigidPIC.gif" style="width: 30%; height: auto;" />
+<img src="./gif/mpmRigidPIC.gif" style="width: 50%; height: auto;" />
 </div>
 
 **APIC(Only P2G & G2P)**:
+
 Due to errors inherent in the time integration and the lack of physical constraints, the particle volume keeps increasing over time.
+
 <div style="text-align: center;">
-<img src="./gif/mpmRigidAPIC.gif" style="width: 30%; height: auto;" />
+<img src="./gif/mpmRigidAPIC.gif" style="width: 50%; height: auto;" />
 </div>
 
 **APIC**:
+
 <div style="text-align: center;">
-<img src="./gif/mpmElasticAPIC.gif" style="width: 30%; height: auto;" />
+<img src="./gif/mpmElasticAPIC.gif" style="width: 50%; height: auto;" />
 </div>
 
 ## Coupling
 
 **PIC**:
 <div style="text-align: center;">
-<img src="./gif/mpmElasticSnowPIC.gif" style="width: 30%; height: auto;" />
+<img src="./gif/mpmElasticSnowPIC.gif" style="width: 50%; height: auto;" />
 </div>
 
 **APIC**:
 <div style="text-align: center;">
-<img src="./gif/mpmSnowElastic.gif" style="width: 30%; height: auto;" />
+<img src="./gif/mpmSnowElastic.gif" style="width: 50%; height: auto;" />
 </div>
 
 ## Debugging Tips
