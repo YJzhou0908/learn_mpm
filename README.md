@@ -1,7 +1,7 @@
 ## Hyperelastic Material
 Result[[Chenfanfu Jiang 2016]](#Reference):
 <div style="text-align: center;">
-<img src="./gif/mpmElasticPIC.gif" style="width: 50% height: auto;" />
+<img src="./gif/mpmElasticPIC.gif" style="width: 50%; height: auto;" />
 </div>
 
 ## Elasto-plastic Materials
